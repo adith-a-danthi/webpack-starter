@@ -11,3 +11,7 @@ h1 {
   margin: 0;
   color: #333;
 }
+
+.webpack-logo {
+  width: 3rem;
+}
