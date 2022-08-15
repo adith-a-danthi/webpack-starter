@@ -10,6 +10,25 @@ const webpackConfig = {
     clean: true,
   },
 
+  module: {
+    rules: [
+      {
+        test: /\.m?js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-env"],
+          },
+        },
+      },
+    ],
+  },
+
+  resolve: {
+    extensions: ["*", ".js"],
+  },
+
   plugins: [
     new HtmlWebpackPlugin({
       title: "Webpack Starter",
