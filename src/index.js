@@ -1,3 +1,3 @@
-import { App } from "./App";
+import { App } from './App';
 
-document.getElementById("root").innerHTML = App();
+document.getElementById('root').innerHTML = App();

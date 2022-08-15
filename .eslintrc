@@ -4,7 +4,10 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["eslint:recommended"],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
   "parser": "@babel/eslint-parser",
-  "rules": {}
+  "rules": {
+    "prettier/prettier": "error"
+  }
 }

@@ -1,6 +1,6 @@
-import "./scss/styles.scss";
-import "./main.css";
-import WebpackLogo from "./assets/webpack.svg";
+import './scss/styles.scss';
+import './main.css';
+import WebpackLogo from './assets/webpack.svg';
 
 const App = () => {
   return `
