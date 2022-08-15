@@ -35,6 +35,9 @@ const webpackConfig = {
   },
 
   resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "src"),
+    },
     extensions: ["*", ".js"],
   },
 
@@ -44,27 +47,6 @@ const webpackConfig = {
       template: path.resolve(__dirname, "src", "index.html"),
     }),
   ],
-
-  optimization: {
-    splitChunks: {
-      cacheGroups: {
-        node_vendors: {
-          name: "vendor",
-          test: /[\\/]node_modules[\\/]/,
-          chunks: "all",
-          priority: 1,
-        },
-      },
-    },
-  },
-
-  devServer: {
-    static: path.resolve(__dirname, "dist"),
-    open: true,
-    hot: true,
-  },
-
-  mode: "production",
 };
 
 module.exports = webpackConfig;
