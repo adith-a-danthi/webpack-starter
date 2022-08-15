@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./scss/styles.scss";
 import WebpackLogo from "./assets/webpack.svg";
 
 const App = () => {

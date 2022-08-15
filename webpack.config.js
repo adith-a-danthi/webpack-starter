@@ -24,8 +24,8 @@ const webpackConfig = {
         },
       },
       {
-        test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
+        test: /\.(css|scss|sass)$/,
+        use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
