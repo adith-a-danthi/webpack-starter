@@ -2,7 +2,6 @@
   "name": "webpack-starter",
   "version": "1.0.0",
   "description": "Build VanillaJS web apps with modern tools",
-  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch --config webpack/webpack.dev.js",
@@ -11,6 +10,22 @@
     "build:dev": "webpack --config webpack/webpack.dev.js",
     "format": "prettier --write \"**/*.{js,scss,css,json,md}\""
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adith-a-danthi/webpack-starter.git"
+  },
+  "keywords": [
+    "webpack",
+    "startkit",
+    "frontend",
+    "es6",
+    "javascript",
+    "webdev"
+  ],
+  "bugs": {
+    "url": "https://github.com/adith-a-danthi/webpack-starter/issues"
+  },
+  "homepage": "https://github.com/adith-a-danthi/webpack-starter#readme",
   "author": "Adith A Danthi",
   "license": "ISC",
   "devDependencies": {
@@ -36,5 +51,8 @@
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.10.0",
     "webpack-merge": "^5.8.0"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   }
 }
