@@ -19,16 +19,16 @@ This is a webpack starter project for Vanilla JS applications using modern tools
 
 1. Install dependencies
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 2. Run the application
 
-    ```bash
-    # Development
-    npm run start
+   ```bash
+   # Development
+   npm run start
 
-    # Production
-    npm run build
-    ```
+   # Production
+   npm run build
+   ```
