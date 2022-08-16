@@ -1,5 +1,5 @@
 {
-  "name": "webpack-starter",
+  "name": "@adith-a-danthi/webpack-starter",
   "version": "1.0.0",
   "description": "Build VanillaJS web apps with modern tools",
   "scripts": {
